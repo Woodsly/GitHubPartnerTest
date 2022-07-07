@@ -11,10 +11,12 @@ namespace GithubPartnertest
         //properties
         public string Name { get; set; }
         public double Salary { get; set; }
-        public Employee(string _name, double _salary)
+        public string role { get; set; }
+        public Employee(string _name, double _salary, string _role)
         {
             Name = _name;
             Salary = _salary;
+            role = _role;
         }
     }
 }
